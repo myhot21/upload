@@ -82,7 +82,7 @@ public class NioClient {
 	public void handleMsg(String msg){
 		System.out.println("handleMsg===============" + msg);
 		JSONObject jsonobj = (JSONObject)JSONValue.parse(msg);
-		
+//		{fileId:'',threads:[{start:'',end:''},{start:'',end:''}]}
 	}
 	
 	public void sendFileInfo(File file) throws IOException{
